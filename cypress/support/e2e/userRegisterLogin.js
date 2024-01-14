@@ -4,9 +4,9 @@ describe('PetStore User API Testing', () => {
         let body = {
             "id": 123,
             "username": Cypress.env('username'),
-            "firstName": "Fatima",
-            "lastName": "Zza",
-            "email": "fatima@mail.com",
+            "firstName": "Myoe Thandar",
+            "lastName": "Kyaw",
+            "email": "myoe@mail.com",
             "password": Cypress.env('password'),
             "phone": "081234567890",
             "userStatus": 0
