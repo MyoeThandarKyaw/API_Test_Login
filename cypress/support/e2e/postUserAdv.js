@@ -5,10 +5,10 @@ describe('PetStore API Testing - Create User - POST', () => {
         // add request body
         let body = {
             "id": 123,
-            "username": "Fatima123",
-            "firstName": "Fatima",
-            "lastName": "Zza",
-            "email": "fatima@mail.com",
+            "username": "Myoe123",
+            "firstName": "Myoe Thandar",
+            "lastName": "Kyaw",
+            "email": "myoethandar@gmail.com",
             "password": "Pass123",
             "phone": "081234567890",
             "userStatus": 0
