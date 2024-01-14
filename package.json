@@ -1,0 +1,30 @@
+{
+  "name": "cypressapitest",
+  "version": "1.0.0",
+  "description": "cypress api automation testing",
+  "main": "index.js",
+  "scripts": {
+    "test": "cypress run --reporter mochawesome",
+    "test:merge": "npx mochawesome-merge cypress/report/mochawesome-report/*.json > cypress/report/report.json",
+    "test:report": "npx marge cypress/report/report.json --reportDir ./ --inline",
+    "no-test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fatimazza/CypressAPITest.git"
+  },
+  "keywords": [
+    "cypress"
+  ],
+  "author": "fatimazza",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fatimazza/CypressAPITest/issues"
+  },
+  "homepage": "https://github.com/fatimazza/CypressAPITest#readme",
+  "devDependencies": {
+    "cypress": "^12.17.4",
+    "mochawesome": "^7.1.3",
+    "mochawesome-merge": "^4.3.0"
+  }
+}
